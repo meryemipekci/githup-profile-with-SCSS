@@ -1,0 +1,18 @@
+@import 'formalize';
+@import 'normalize';
+@import 'variables';
+@import '_header';
+@import '_content';
+
+.icon{
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+a, p{
+    font-size: $my-font;
+}
